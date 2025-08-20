@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://htmledit.squarefree.com/#portfolio -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JarnYod | Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111827;
+      color: white;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 30px;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      margin: 6px 0;
+      width: 100%;
+      text-align: center;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #374151;
+    }
+
+    /* Content Area */
+    .content {
+      margin-left: 220px;
+      padding: 50px;
+      flex: 1;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      height: 100vh;
+      padding: 40px;
+    }
+
+    section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    section p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    /* Different section backgrounds */
+    #home { background: #f9fafb; }
+    #about { background: #e5e7eb; }
+    #portfolio { background: #d1d5db; }
+    #contact { background: #f3f4f6; }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      text-align: center;
+      background: #111827;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>JarnYod</h2>
+    <a href="https://htmledit.squarefree.com/#home">Home</a>
+    <a href="https://htmledit.squarefree.com/#about">About</a>
+    <a href="https://htmledit.squarefree.com/#portfolio">Portfolio</a>
+    <a href="https://htmledit.squarefree.com/#contact">Contact</a>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <section id="home">
+      <h1>Welcome to My Profile</h1>
+      <p>Hello! I’m <strong>JarnYod</strong>, a passionate video editor and photographer.  
+      I specialize in creating cinematic visuals, storytelling through edits,  
+      and capturing life’s best moments through photography.</p>
+    </section>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <p>I am a creative storyteller who loves working with visuals.  
+      With years of experience in photography and video editing,  
+      I bring ideas to life by blending art with technology.</p>
+    </section>
+
+    <section id="portfolio">
+      <h1>Portfolio</h1>
+      <p>My works include event coverage, promotional videos,  
+      documentaries, and creative photography projects.  
+      <br><br>[👉 You can add image thumbnails or YouTube embeds here]</p>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <p>📧 Email: Jarnyodchannel@email.com  
+      📱 Phone: +856 20 5504 0203
+      🌐 Social: <a href="https://htmledit.squarefree.com/#" target="https://www.facebook.com/Jarnyodtaiban/">Facebook</a> | <a href="https://htmledit.squarefree.com/#" target="_blank">TikTok</a></p>
+    </section>
+
+    <footer>
+      © 2025 JarnYod. All Rights Reserved.
+    </footer>
+  </div>
+
+
+
+</body></html>
